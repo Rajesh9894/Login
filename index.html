@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <p id="popup" class="pop-up">Form submitted Successfully !!!</p>
+    <div class="container">
+        <form id="form">
+            <div class="form-container">
+                <div class="heading">
+                    <h3>Registration</h3>
+                </div>
+                <div class="username">
+                    <input type="text" id="username" class="input-field" placeholder="Enter your name">
+                    <i class="fa-solid fa-circle-check" style="color: #3232d7e8;"></i>
+                    <i class="fa-solid fa-circle-exclamation" style="color: #d74a16e3;"></i>
+
+                    <label for="username" style="color:#d74a16e3; font-size: small;" class="label">Please enter your
+                        name </label>
+                </div>
+
+                <div class="phone">
+                    <input type="text" id="phone-no" class="input-field" placeholder="Enter your Phone no">
+                    <i class="fa-solid fa-circle-check" style="color: #3232d7e8;"></i>
+                    <!--<i class="fa-solid fa-circle-exclamation" style="color: #d74a16e3;"></i>-->
+
+                    <label for="phone" style="color:#d74a16e3; font-size: small;" class="label">Please enter your
+                        phoneno </label>
+                </div>
+
+                <div class="Email">
+                    <input type="email" id="mail" class="input-field" placeholder="Enter your email">
+                    <i class="fa-solid fa-circle-check" style="color: #3232d7e8;"></i>
+                    <!--<i class="fa-solid fa-circle-exclamation" style="color: #d74a16e3;"></i>-->
+
+                    <label for="email" style="color:#d74a16e3; font-size: small;" class="label">Please enter your email
+                    </label>
+                </div>
+
+                <div class="password">
+                    <input type="password" id="password" class="input-field" placeholder="Create password">
+                    <i class="fa-solid fa-circle-check" style="color: #3232d7e8;"></i>
+                    <!-- <i class="fa-solid fa-circle-exclamation" style="color: #d74a16e3;"></i>-->
+                    <label for="password" style="color:#d74a16e3; font-size: small;" class="label">Please enter password
+                    </label>
+
+                </div>
+
+                <div class="con-password">
+                    <input type="password" id="con-pass" class="input-field" placeholder="Confirm passowrd">
+                    <i class="fa-solid fa-circle-check" style="color: #3232d7e8"></i>
+                    <!--<i class="fa-solid fa-circle-exclamation" style="color: #d74a16e3;"></i>-->
+                    <label for="confirm-password" style="color:#d74a16e3; font-size: small;" class="label">again enter your password </label>
+
+                </div>
+
+                <div class="accept">
+                    <input type="checkbox" id="checkbox" class="check">
+                    <label class="sub">I accept all terms & Condition</label>
+                </div>
+
+                <div class="submit-btn">
+                    <input type="submit" value="Register Now" id="submit" class="sub-btn">
+                </div>
+
+                <div class="login-link">
+                    <p class="sub-text">Already have an account ? <a href="#">Login now</a> </p>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
